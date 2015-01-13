@@ -1,0 +1,6 @@
+<?php
+	function f_SobreMi($nombre,$email,$poblacion){
+		$saludo="<p>Hola, mi nombre es $nombre, soy del $poblacion. Si quieres contactar conmigo escribe al mail: $email. </p><br/>Gracias.<br/>";
+		return $saludo;
+	}
+?>
